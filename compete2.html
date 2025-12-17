@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Competitive Intelligence GPT + 90-Day Plan — $297</title>
+  <meta name="description" content="Run competitor + money-term scans on demand. Up to 5 competitors and up to 5 terms per report. Get a PDF-ready Competitive Intelligence Report + 90-Day Plan for $297." />
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:rgba(255,255,255,.06);
+      --card2:rgba(11,16,32,.28);
+      --text:#eaf0ff;
+      --muted:#b9c3e6;
+      --line:rgba(255,255,255,.10);
+      --accent:#7aa7ff;
+      --accent2:#9d7bff;
+      --good:#67e8f9;
+      --warn:#fbbf24;
+      --shadow:0 18px 60px rgba(0,0,0,.45);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background:
+        radial-gradient(900px 420px at 15% 10%, rgba(122,167,255,.18), transparent 60%),
+        radial-gradient(900px 420px at 90% 0%, rgba(157,123,255,.16), transparent 55%),
+        radial-gradient(700px 380px at 60% 100%, rgba(103,232,249,.10), transparent 60%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 72px}
+    header{
+      display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+      padding:10px 0 24px;border-bottom:1px solid var(--line);
+    }
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:42px;height:42px;border-radius:12px;
+      background: linear-gradient(135deg, rgba(122,167,255,.95), rgba(157,123,255,.95));
+      box-shadow: 0 12px 30px rgba(122,167,255,.18);
+      position:relative;
+    }
+    .logo:after{
+      content:""; position:absolute; inset:10px; border-radius:10px;
+      border:1px solid rgba(255,255,255,.35);
+      background: rgba(11,16,32,.25);
+      backdrop-filter: blur(6px);
+    }
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 16px;border-radius:14px;
+      border:1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.06);
+      text-decoration:none;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+      white-space:nowrap;
+    }
+    .btn:hover{transform: translateY(-1px);background: rgba(255,255,255,.09);border-color: rgba(255,255,255,.22)}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(122,167,255,.95), rgba(157,123,255,.95));
+      border-color: rgba(255,255,255,.18);
+      color:#0b1020;
+      font-weight:900;
+      box-shadow: 0 16px 40px rgba(122,167,255,.22);
+    }
+    .btn.primary:hover{transform: translateY(-1px) scale(1.01)}
+    .grid{
+      display:grid;grid-template-columns: 1.15fr .85fr;gap:18px;padding:28px 0 10px;
+    }
+    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .pad{padding:22px}
+    .kicker{
+      display:inline-flex;gap:10px;align-items:center;
+      padding:7px 10px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.05);
+      color:var(--muted);
+      font-size:13px;
+    }
+    .dot{
+      width:8px;height:8px;border-radius:99px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 4px rgba(122,167,255,.15);
+    }
+    h1{margin:12px 0 10px;font-size:42px;line-height:1.08;letter-spacing:-.7px}
+    @media (max-width: 520px){ h1{font-size:34px} }
+    .sub{color:var(--muted);font-size:16px;margin:0 0 16px}
+    .mini{
+      display:grid;grid-template-columns: 1fr 1fr;gap:10px;margin-top:14px
+    }
+    @media (max-width: 520px){ .mini{grid-template-columns:1fr} }
+    .pill{
+      padding:12px 12px;border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(11,16,32,.25);
+      color:var(--muted);
+      font-size:13px;
+    }
+    .pill b{color:var(--text)}
+    .priceBox{
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(11,16,32,.28);
+      padding:16px;
+    }
+    .priceRow{display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap}
+    .priceRow .label{font-weight:900;font-size:16px}
+    .priceRow .amount{font-size:34px;font-weight:950;letter-spacing:-.6px}
+    .small{color:var(--muted);font-size:13px;margin-top:6px}
+    .bullets{margin:12px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+    .bullets li{display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:14px}
+    .check{
+      width:20px;height:20px;border-radius:8px;flex:0 0 20px;
+      background: rgba(103,232,249,.16);
+      border:1px solid rgba(103,232,249,.25);
+      display:grid;place-items:center;
+      color: var(--good);
+      font-weight:900;
+      margin-top:2px;
+    }
+    .section{padding:18px 0}
+    .hr{height:1px;background:var(--line);margin:18px 0}
+    h2{margin:0 0 8px;font-size:22px}
+    h3{margin:0 0 6px;font-size:18px}
+    .grid3{display:grid;grid-template-columns: repeat(3, 1fr);gap:12px}
+    @media (max-width: 900px){ .grid3{grid-template-columns:1fr} }
+    .feature{
+      padding:16px;border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(11,16,32,.22);
+    }
+    .feature p{margin:0;color:var(--muted);font-size:14px}
+    .twoCol{display:grid;grid-template-columns: 1fr 1fr;gap:12px}
+    @media (max-width: 900px){ .twoCol{grid-template-columns:1fr} }
+    .note{
+      display:flex;gap:10px;align-items:flex-start;
+      padding:12px 12px;border-radius:16px;
+      border:1px solid rgba(251,191,36,.20);
+      background: rgba(251,191,36,.08);
+      color:rgba(255,255,255,.82);
+      font-size:13px;
+    }
+    .faq details{
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(11,16,32,.22);
+      border-radius:16px;
+      padding:14px 14px;
+      margin-bottom:10px;
+    }
+    .faq summary{cursor:pointer;font-weight:900}
+    .faq p{margin:10px 0 0;color:var(--muted)}
+    footer{
+      margin-top:26px;padding-top:22px;border-top:1px solid var(--line);
+      color:var(--muted);font-size:13px;
+    }
+    .mutedLink{color:var(--muted);text-decoration:underline;text-decoration-color:rgba(255,255,255,.18)}
+    .badge{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:7px 10px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(11,16,32,.28);
+      color:var(--muted);
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-weight:900;letter-spacing:.4px">Competitive Intelligence GPT</div>
+          <div style="color:var(--muted);font-size:13px">On-demand scans + PDF-ready report + 90-day plan</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="#whats-included">What’s Included</a>
+        <a class="btn primary" href="#buy">Get Access</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <!-- HERO -->
+      <div class="card pad">
+        <div class="kicker"><span class="dot" aria-hidden="true"></span> Run scans whenever you want • Up to 5 competitors + up to 5 money terms per report</div>
+        <h1>Generate a competitive intelligence report and a 90-day plan—on demand.</h1>
+        <p class="sub">
+          Stop guessing why other businesses outrank you locally.
+          This GPT helps you analyze the competitors ranking ahead of you for profitable terms,
+          then outputs a clean, PDF-ready report with a 90-day action plan based on what it finds.
+        </p>
+
+        <div class="mini">
+          <div class="pill"><b>Simple inputs:</b> city + services + competitors/terms</div>
+          <div class="pill"><b>Structured output:</b> same sections every time</div>
+          <div class="pill"><b>No logins needed:</b> no website access required</div>
+          <div class="pill"><b>Fast:</b> clarity in one session</div>
+        </div>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px">
+          <a class="btn primary" href="#buy">Get the GPT for $297</a>
+          <a class="btn" href="#faq">Read FAQ</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="note" role="note">
+          <span style="font-weight:950;color:var(--warn)">!</span>
+          <div>
+            <b>Scope clarity:</b> This is competitive intelligence + planning. No ranking guarantees. No account access. No website edits.
+            You get a clear report and a 90-day plan you can execute (or hand off).
+          </div>
+        </div>
+      </div>
+
+      <!-- PRICING -->
+      <aside class="card pad" id="buy">
+        <span class="badge">One Price • Simple</span>
+        <h2 style="margin-top:10px">Flat pricing</h2>
+        <p style="margin:0;color:var(--muted)">No tiers, no credits, no confusion.</p>
+
+        <div class="hr"></div>
+
+        <div class="priceBox">
+          <div class="priceRow">
+            <div class="label">Competitive Intelligence GPT</div>
+            <div class="amount">$297</div>
+          </div>
+          <div class="small">
+            Per report run: up to <b>5 competitors</b> and up to <b>5 terms</b> (you choose each time).
+          </div>
+
+          <ul class="bullets">
+            <li><span class="check">✓</span>Executive summary (who’s winning + why)</li>
+            <li><span class="check">✓</span>1-page snapshots per competitor</li>
+            <li><span class="check">✓</span>Comparison matrix (side-by-side deltas)</li>
+            <li><span class="check">✓</span>Opportunity map (quick wins / compounding / separation)</li>
+            <li><span class="check">✓</span>90-day plan (Days 1–30 / 31–60 / 61–90)</li>
+            <li><span class="check">✓</span>PDF-ready formatting (copy into Docs → export)</li>
+          </ul>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+            <a class="btn primary" href="https://YOUR-CHECKOUT-LINK-HERE.com" target="_blank" rel="noopener">Buy for $297</a>
+            <a class="btn" href="#intake">See the intake</a>
+          </div>
+
+          <p class="small" style="margin-top:12px">
+            After purchase, you’ll receive access instructions and the GPT link.
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- WHAT'S INCLUDED -->
+    <section class="section" id="whats-included">
+      <div class="card pad">
+        <h2>What’s included (every time you run it)</h2>
+        <p style="margin:0;color:var(--muted)">
+          This is built to behave like a report engine: minimal questions, consistent structure, and a plan tied to what’s working in your market.
+        </p>
+
+        <div class="hr"></div>
+
+        <div class="grid3">
+          <div class="feature">
+            <h3>Competitor selection</h3>
+            <p>Scan the businesses already ranking ahead of you, based on the competitors you choose and/or the money terms you care about.</p>
+          </div>
+          <div class="feature">
+            <h3>Pattern extraction</h3>
+            <p>Identify the repeatable signals the winners share—plus the unique factors separating the top listings from the rest.</p>
+          </div>
+          <div class="feature">
+            <h3>90-day plan</h3>
+            <p>Get a paced plan: what to do first, what to do next, what to ignore, and how to compete smarter over the next 90 days.</p>
+          </div>
+          <div class="feature">
+            <h3>PDF-ready report</h3>
+            <p>Clean formatting and consistent headings so you can copy/paste into Google Docs and export a polished PDF fast.</p>
+          </div>
+          <div class="feature">
+            <h3>No website access</h3>
+            <p>No logins. No edits. No complicated onboarding. You keep control; the GPT provides clarity and direction.</p>
+          </div>
+          <div class="feature">
+            <h3>Low friction</h3>
+            <p>No calls required. No endless “one more thing.” It’s designed to avoid back-and-forth and keep things simple.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 90 DAY PLAN DETAIL -->
+    <section class="section" id="plan">
+      <div class="card pad">
+        <h2>The 90-day plan (how it’s organized)</h2>
+        <p style="margin:0;color:var(--muted)">
+          The plan is derived from the scan (not generic). It’s structured to create fast clarity, steady momentum, then separation.
+        </p>
+
+        <div class="hr"></div>
+
+        <div class="twoCol">
+          <div class="feature">
+            <h3>Days 1–30: Close the gap</h3>
+            <p>Fix the biggest visibility weaknesses the scan reveals and align with the baseline signals your market rewards.</p>
+          </div>
+          <div class="feature">
+            <h3>Days 31–60: Build momentum</h3>
+            <p>Stack compounding signals and routines the top competitors repeat—without turning this into a huge project.</p>
+          </div>
+          <div class="feature">
+            <h3>Days 61–90: Create separation</h3>
+            <p>Exploit blind spots competitors share and add differentiation signals that are uncommon in your local market.</p>
+          </div>
+          <div class="feature">
+            <h3>Built-in “Do / Don’t”</h3>
+            <p>Each phase includes “do this” and “don’t waste time on this” guidance so you don’t chase noise.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTAKE -->
+    <section class="section" id="intake">
+      <div class="card pad">
+        <h2>Intake (what you enter)</h2>
+        <p style="margin:0;color:var(--muted)">
+          You can run a scan in minutes. The GPT will ask for only what it needs, then generate the report.
+        </p>
+
+        <div class="hr"></div>
+
+        <div class="twoCol">
+          <div class="feature">
+            <h3>Required</h3>
+            <ul class="bullets">
+              <li><span class="check">✓</span>Business name + city/market</li>
+              <li><span class="check">✓</span>Primary services (what you actually sell)</li>
+            </ul>
+          </div>
+          <div class="feature">
+            <h3>Per report run (your choice)</h3>
+            <ul class="bullets">
+              <li><span class="check">✓</span>Up to 5 competitors (names or GBP links)</li>
+              <li><span class="check">✓</span>Up to 5 money terms (what you want calls/leads for)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <p style="margin:0;color:var(--muted);font-size:14px">
+          Prefer the “no guessing” version? Paste GBP links for you and your competitors when possible.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="card pad">
+        <h2>FAQ</h2>
+        <p style="margin:0;color:var(--muted)">Quick answers so you know exactly what this is (and isn’t).</p>
+        <div class="hr"></div>
+
+        <details>
+          <summary>Is this a one-time report or can I run it repeatedly?</summary>
+          <p>This is a GPT you can run whenever you want. Each time, choose up to 5 competitors and up to 5 terms, and generate a new report + 90-day plan.</p>
+        </details>
+
+        <details>
+          <summary>Do you need access to my website or Google account?</summary>
+          <p>No. You do not provide logins. The GPT works from public information and the inputs you provide.</p>
+        </details>
+
+        <details>
+          <summary>Does this guarantee rankings or results?</summary>
+          <p>No. This is competitive intelligence and planning. Results depend on execution, competition, and platform changes.</p>
+        </details>
+
+        <details>
+          <summary>What if I don’t know my competitors?</summary>
+          <p>Start with money terms and your city. If you can’t provide competitor links, you can list competitor names you recognize. (Links are best when available.)</p>
+        </details>
+
+        <details>
+          <summary>How do I turn this into a PDF?</summary>
+          <p>The GPT outputs a PDF-ready structure. Copy/paste into Google Docs (or Word) and export to PDF. The formatting is designed to make this fast.</p>
+        </details>
+
+        <div class="hr"></div>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn primary" href="https://YOUR-CHECKOUT-LINK-HERE.com" target="_blank" rel="noopener">Buy for $297</a>
+          <a class="btn" href="#intake">See the intake</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:flex-start">
+        <div>
+          <b>Competitive Intelligence GPT</b><br/>
+          <span>On-demand scans • report + 90-day plan • $297 flat</span>
+        </div>
+        <div style="text-align:right">
+          <span>Support: <a class="mutedLink" href="mailto:YOUR@EMAIL.com">YOUR@EMAIL.com</a></span><br/>
+          <span>© <span id="y"></span> Your Brand</span>
+        </div>
+      </div>
+      <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </div>
+</body>
+</html>
